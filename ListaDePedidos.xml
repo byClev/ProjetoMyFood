@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="22.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <int>1</int>
+   <object class="codigos.entidades.Pedido">
+    <void property="estadoPedido">
+     <string>entregando</string>
+    </void>
+    <void property="idCliente">
+     <int>4</int>
+    </void>
+    <void property="idEmpresa">
+     <int>4</int>
+    </void>
+    <void property="idPedido">
+     <int>1</int>
+    </void>
+    <void property="produtos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="codigos.entidades.Produto" id="Produto0">
+        <void property="categoria">
+         <string>alimento</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>4</int>
+        </void>
+        <void property="nome">
+         <string>Pastel</string>
+        </void>
+        <void property="preco">
+         <float>1.4</float>
+        </void>
+        <void property="produtoID">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="codigos.entidades.Produto" id="Produto1">
+        <void property="categoria">
+         <string>bebida</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>4</int>
+        </void>
+        <void property="nome">
+         <string>Refrigerante</string>
+        </void>
+        <void property="preco">
+         <float>3.0</float>
+        </void>
+        <void property="produtoID">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="valorTotal">
+     <float>4.4</float>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>2</int>
+   <object class="codigos.entidades.Pedido">
+    <void property="estadoPedido">
+     <string>aberto</string>
+    </void>
+    <void property="idCliente">
+     <int>4</int>
+    </void>
+    <void property="idEmpresa">
+     <int>5</int>
+    </void>
+    <void property="idPedido">
+     <int>2</int>
+    </void>
+    <void property="produtos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="codigos.entidades.Produto">
+        <void property="categoria">
+         <string>bebida</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>5</int>
+        </void>
+        <void property="nome">
+         <string>Refrigerante</string>
+        </void>
+        <void property="preco">
+         <float>2.4</float>
+        </void>
+        <void property="produtoID">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="codigos.entidades.Produto">
+        <void property="categoria">
+         <string>limpeza</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>5</int>
+        </void>
+        <void property="nome">
+         <string>SabÃ£o</string>
+        </void>
+        <void property="preco">
+         <float>1.25</float>
+        </void>
+        <void property="produtoID">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="valorTotal">
+     <float>3.65</float>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>3</int>
+   <object class="codigos.entidades.Pedido">
+    <void property="estadoPedido">
+     <string>entregando</string>
+    </void>
+    <void property="idCliente">
+     <int>4</int>
+    </void>
+    <void property="idEmpresa">
+     <int>4</int>
+    </void>
+    <void property="idPedido">
+     <int>3</int>
+    </void>
+    <void property="produtos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object idref="Produto0"/>
+      </void>
+      <void method="add">
+       <object idref="Produto1"/>
+      </void>
+     </object>
+    </void>
+    <void property="valorTotal">
+     <float>4.4</float>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>4</int>
+   <object class="codigos.entidades.Pedido">
+    <void property="estadoPedido">
+     <string>entregue</string>
+    </void>
+    <void property="idCliente">
+     <int>4</int>
+    </void>
+    <void property="idEmpresa">
+     <int>6</int>
+    </void>
+    <void property="idPedido">
+     <int>4</int>
+    </void>
+    <void property="produtos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="codigos.entidades.Produto" id="Produto2">
+        <void property="categoria">
+         <string>medicamento</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>6</int>
+        </void>
+        <void property="nome">
+         <string>Paracetamol</string>
+        </void>
+        <void property="preco">
+         <float>2.4</float>
+        </void>
+        <void property="produtoID">
+         <int>5</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="codigos.entidades.Produto">
+        <void property="categoria">
+         <string>higiene</string>
+        </void>
+        <void property="empresaPossuidoraID">
+         <int>6</int>
+        </void>
+        <void property="nome">
+         <string>Agua Oxigenada</string>
+        </void>
+        <void property="preco">
+         <float>5.0</float>
+        </void>
+        <void property="produtoID">
+         <int>6</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="valorTotal">
+     <float>7.4</float>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>5</int>
+   <object class="codigos.entidades.Pedido">
+    <void property="estadoPedido">
+     <string>aberto</string>
+    </void>
+    <void property="idCliente">
+     <int>4</int>
+    </void>
+    <void property="idEmpresa">
+     <int>6</int>
+    </void>
+    <void property="idPedido">
+     <int>5</int>
+    </void>
+    <void property="produtos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object idref="Produto2"/>
+      </void>
+     </object>
+    </void>
+    <void property="valorTotal">
+     <float>2.4</float>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

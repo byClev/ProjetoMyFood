@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="22.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <int>3</int>
+   <object class="codigos.entidades.Entrega">
+    <void property="destino">
+     <string>Rua Exemplo N 123</string>
+    </void>
+    <void property="idEntrega">
+     <int>3</int>
+    </void>
+    <void property="idEntregador">
+     <int>6</int>
+    </void>
+    <void property="idPedido">
+     <int>4</int>
+    </void>
+    <void property="listaDeProdutos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string>Paracetamol</string>
+      </void>
+      <void method="add">
+       <string>Agua Oxigenada</string>
+      </void>
+     </object>
+    </void>
+    <void property="nomeCliente">
+     <string>Carlos</string>
+    </void>
+    <void property="nomeEmpresa">
+     <string>Farmacia</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>5</int>
+   <object class="codigos.entidades.Entrega">
+    <void property="destino">
+     <string>Rua Exemplo N 85</string>
+    </void>
+    <void property="idEntrega">
+     <int>5</int>
+    </void>
+    <void property="idEntregador">
+     <int>7</int>
+    </void>
+    <void property="idPedido">
+     <int>1</int>
+    </void>
+    <void property="listaDeProdutos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string>Pastel</string>
+      </void>
+      <void method="add">
+       <string>Refrigerante</string>
+      </void>
+     </object>
+    </void>
+    <void property="nomeCliente">
+     <string>Carlos</string>
+    </void>
+    <void property="nomeEmpresa">
+     <string>Pastelaria</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>6</int>
+   <object class="codigos.entidades.Entrega">
+    <void property="destino">
+     <string>Rua Exemplo N 123</string>
+    </void>
+    <void property="idEntrega">
+     <int>6</int>
+    </void>
+    <void property="idEntregador">
+     <int>6</int>
+    </void>
+    <void property="idPedido">
+     <int>3</int>
+    </void>
+    <void property="listaDeProdutos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <string>Pastel</string>
+      </void>
+      <void method="add">
+       <string>Refrigerante</string>
+      </void>
+     </object>
+    </void>
+    <void property="nomeCliente">
+     <string>Carlos</string>
+    </void>
+    <void property="nomeEmpresa">
+     <string>Pastelaria</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
