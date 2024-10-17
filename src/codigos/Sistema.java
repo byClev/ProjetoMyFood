@@ -33,7 +33,7 @@ public class Sistema {
     private int contadorID_Pedido;
     private int contadorID_Entrega;
 
-    //contructor inicia todo o sistema quando essa classe é instanciada e carrega as lista pela persistence se houver
+    //contructor inicia tod o sistema desserializando os dados para suas respectivas lists/maps e gera os IDs iniciais
     public Sistema(){
         listaDeUsuarios = serviceDeserializarDados("ListaDeUsuarios.xml");
         listaDeEmpresas = serviceDeserializarDados("ListaDeEmpresas.xml");
@@ -328,6 +328,7 @@ public class Sistema {
         listaDeEntregas.clear();
     }
     public void encerrarSistema(){
+        //serializa todos os dados para criar a persistencia
         serializarDadosUsuario();
         serializarDadosEmpresa();
         serializarDadosProduto();
